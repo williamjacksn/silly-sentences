@@ -1,0 +1,9 @@
+services:
+  silly-sentences:
+    command:
+      - /workspace/silly-sentences.py
+    entrypoint:
+      - /usr/local/bin/python
+    image: python:3.10.0-alpine3.14
+    volumes:
+      - ./:/workspace
