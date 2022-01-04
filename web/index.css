@@ -1,0 +1,14 @@
+.main {
+    border-color: black;
+    border-radius: 2rem;
+    border-style: solid;
+    display: inline-block;
+    font-family: serif;
+    font-size: 5rem;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+p {
+    margin: 0;
+}
